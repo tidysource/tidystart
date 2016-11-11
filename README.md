@@ -19,13 +19,13 @@ Each width is represented by a class name. The naming convention is simple and f
 See table below for class names.
 
 |	Class	|	Width relative to container	|
-|----------:|------------------------------:|
-|	w1-2	|				1/2				|
-|	w1-3 	|				1/3				|
-|	w2-3	|				2/3				|
-|	w1-4 	|				1/4				|
-|	w2-4 	|				2/4				|
-|	w3-4	|				3/4				|
+|-----------|:-----------------------------:|
+|	.w1-2	|				1/2				|
+|	.w1-3 	|				1/3				|
+|	.w2-3	|				2/3				|
+|	.w1-4 	|				1/4				|
+|	.w2-4 	|				2/4				|
+|	.w3-4	|				3/4				|
 
 __Notes__ 
 adding width also sets element display property to inline block.
@@ -50,12 +50,12 @@ Offsetting elements is possible by same divisions relative to the container.
 For example to offset an element from the left side by 25% or 1/4 use a class named "offset1-4".
 
 |	Class		|	Offset relative to container	|
-|--------------:|----------------------------------:|
-|	offset1-2	|				1/2					|
-|	offset1-3 	|				1/3					|
-|	offset2-3	|				2/3					|
-|	offset1-4 	|				1/4					|
-|	offset2-4 	|				2/4					|
-|	offset3-4	|				3/4					|
+|---------------|:---------------------------------:|
+|	.offset1-2	|				1/2					|
+|	.offset1-3 	|				1/3					|
+|	.offset2-3	|				2/3					|
+|	.offset1-4 	|				1/4					|
+|	.offset2-4 	|				2/4					|
+|	.offset3-4	|				3/4					|
 
 These classes do so by adding the appropriate % left margin.
