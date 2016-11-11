@@ -1,0 +1,39 @@
+/* 
+Widths
+------
+*/			
+	.w1-2,
+	.w2-4{width: 50%}
+	.w1-3{width: 33.333333333%}
+	.w2-3{width: 66.666666666%}
+	.w1-4{width: 25%}
+	.w3-4{width: 75%}
+
+/*
+Display in one row
+------------------
+	Note: 
+	within html code there should be no whitespace 
+	between elements on the same row as those would
+	be interpreted as spaces between inline-blocks
+*/
+	.w1-2,
+	.w2-4,
+	.w1-3,
+	.w2-3,
+	.w1-4,
+	.w3-4{
+		display: inline-block; /*Display multiple blocks in one row*/
+		vertical-align: top; /*Remove top margin*/
+	}
+
+/* 
+Offset 
+------
+*/
+	.offset1-2,
+	.offset2-4{margin-left: 50%}
+	.offset1-3{margin-left: 33.333333333%}
+	.offset2-3{margin-left: 66.666666666%}
+	.offset1-4{margin-left: 25%}
+	.offset3-4{margin-left: 75%}
