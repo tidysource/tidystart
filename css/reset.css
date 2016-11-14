@@ -45,6 +45,16 @@ CSS Reset
 	
 	input[type="radio" i],
 	input[type="checkbox" i]{
+		/*
+		Note: 
+		by adding i at the end of the attribute selector 
+		we make it more robust, since it will match in a 
+		case-insensitive way. 
+		For example 
+			input[type="radio" i] 
+		matches 
+			"radio", "Radio", "RADIO", etc.
+		*/
 		display: inline-block;
 		width: auto;
 	}
