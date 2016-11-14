@@ -14,7 +14,8 @@ CSS Reset
 	div,
 	h1,h2,h3,
 	p, 
-	ul, ol, li{
+	ul,ol,li,
+	form,label,input,textarea{
 		margin: 0;
 		padding: 0;
 	}
@@ -24,7 +25,26 @@ CSS Reset
 		padding: 0 0 0 2em;
 	}
 	
-	a, button{
+	a,button,input[type="button" i],
+	input[type="radio" i],input[type="checkbox" i]{
 		cursor: pointer;
 	}
-
+	
+	form,
+	label,
+	input,
+	textarea{
+		display: block;
+		width: 100%;
+		font:inherit;
+	}
+	
+	textarea{
+		resize: vertical;	/*Enable resizing*/
+	}
+	
+	input[type="radio" i],
+	input[type="checkbox" i]{
+		display: inline-block;
+		width: auto;
+	}
