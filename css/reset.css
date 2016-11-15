@@ -15,7 +15,11 @@ CSS Reset
 	h1,h2,h3,
 	p, 
 	ul,ol,li,
-	form,label,input,textarea{
+	form,
+		label,input,textarea,
+		output,meter,progress,
+		fieldset,legend,
+	button{
 		margin: 0;
 		padding: 0;
 	}
@@ -26,17 +30,32 @@ CSS Reset
 	}
 	
 	a,button,input[type="button" i],
-	input[type="radio" i],input[type="checkbox" i]{
+	input[type="radio" i],input[type="checkbox" i],
+	select{
 		cursor: pointer;
 	}
 	
 	form,
 	label,
 	input,
-	textarea{
+	textarea,
+	output,
+	meter,
+	progress,
+	fieldset,
+	legend,
+	select{
 		display: block;
 		width: 100%;
-		font:inherit;
+		font: inherit;
+	}
+	
+	button{
+		font-family: inherit;
+	}
+	
+	fieldset{
+		border: none;
 	}
 	
 	textarea{
